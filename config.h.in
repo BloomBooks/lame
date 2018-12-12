@@ -51,7 +51,8 @@
 #undef HAVE_GETTIMEOFDAY
 
 /* Define if you have the iconv() function and it works. */
-#undef HAVE_ICONV
+/* Does not work on Windows
+#undef HAVE_ICONV*/
 
 /* add ieee754_float32_t type */
 #undef HAVE_IEEE754_FLOAT32_T
