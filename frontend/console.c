@@ -81,6 +81,7 @@ my_report_printing(FILE * fp, const char *format, va_list ap)
  * But one day, for one kind of terminal, that was not enough.)
  */
 
+#undef HAVE_TERMCAP
 #ifdef HAVE_TERMCAP
 
 static void
